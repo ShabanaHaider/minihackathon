@@ -13,7 +13,7 @@ export default function Car() {
       <div className="flex justify-center items-center text-2xl  rounded-lg bg-blue-500 text-white py-3 px-7  mb-4"> {/* Added margin for spacing */}
         <Link href="/checkout" passHref>
           
-            <b>"CLICK HERE TO CHECKOUT"</b>
+            <b>&rdquo;"CLICK HERE TO CHECKOUT"</b>
                       
         </Link>
       </div>
