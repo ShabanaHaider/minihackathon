@@ -1,0 +1,22 @@
+import Link from "next/link";
+
+export default function Car() {
+  return (
+    <div className="flex justify-center mt-30 items-center">
+      <img
+        src="./2cultus.png"
+        alt="CULTUS"
+        className="w-200 h-200" // Updated to a valid Tailwind size class
+      />
+
+      <div className="flex justify-center items-center text-2xl  rounded-lg bg-blue-500 text-white py-3 px-7  mb-4"> 
+        
+        <Link href="/checkout" passHref>
+          
+            <b>"CLICK HERE TO CHECKOUT"</b>
+                      
+        </Link>
+      </div>
+    </div>
+  );
+}
