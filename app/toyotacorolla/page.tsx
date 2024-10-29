@@ -1,10 +1,10 @@
-
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Car() {
   return (
     <div className="flex justify-center mt-20 items-center">
-      <img
+      <Image
         src="./1-toyotacorolla.png"
         alt="Toyota Corolla"
         className="w-200 h-200" // Updated to a valid Tailwind size class
