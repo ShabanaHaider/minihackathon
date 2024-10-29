@@ -13,7 +13,7 @@ export default function Car() {
         
         <Link href="/checkout" passHref>
           
-            <b>&rdquo;"CLICK HERE TO CHECKOUT"</b>
+            <b>&rdquo;"CLICK HERE TO CHECKOUT"&rdquo;</b>
                       
         </Link>
       </div>
