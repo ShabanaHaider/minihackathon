@@ -16,7 +16,7 @@ function Yamin() {
       <div>
         <nav className="flex w-full bg-black h-32">
           <div className="flex justify-center w-1/5 items-center">
-            <img src="./logo.png" alt="logo" className="w-200 h-100" />
+            <Image src="./logo.png" alt="logo" className="w-200 h-100" />
           </div>
 
           <div className="flex justify-center mt-6 text-white items-center w-4/5">
