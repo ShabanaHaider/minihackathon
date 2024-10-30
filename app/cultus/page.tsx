@@ -14,7 +14,7 @@ export default function Car() {
         
         <Link href="/checkout" passHref>
           
-            <b>&rdquo;"CLICK HERE TO CHECKOUT"&rdquo;</b>
+            <b>`&quot;`,"CLICK HERE TO CHECKOUT"`&quot;`,</b>
                       
         </Link>
       </div>
